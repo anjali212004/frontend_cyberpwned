@@ -1,0 +1,126 @@
+.users-container {
+    padding: 20px;
+  }
+  
+  .users-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .users-header h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .search-box input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 0.9rem;
+  }
+  
+  .add-user-btn {
+    background-color: #c00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #900;
+  }
+  
+  .users-table-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .users-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .role-badge, .status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .role-badge.admin {
+    background-color: #f0f0ff;
+    color: #5555cc;
+  }
+  
+  .role-badge.user {
+    background-color: #f0fff0;
+    color: #55aa55;
+  }
+  
+  .status-badge.active {
+    background-color: #e6ffee;
+    color: #00aa44;
+  }
+  
+  .status-badge.inactive {
+    background-color: #fff0f0;
+    color: #ff5555;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .edit-btn {
+    background-color: #f0f0f0;
+    color: #555;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .delete-btn {
+    background-color: #fff0f0;
+    color: #c00;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ffebeb;
+  }

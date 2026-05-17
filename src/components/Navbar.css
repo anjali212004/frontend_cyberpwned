@@ -1,0 +1,321 @@
+/* Main navbar container */
+.cyberpwned-navbar {
+  padding: 12px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #000 !important;
+}
+
+/* Logo styling - increased size */
+.cyberpwned-logo {
+  height: 55px; /* Increased from 40px to 55px */
+  width: auto;
+  object-fit: contain;
+  margin-right: 15px; /* Added space after logo */
+}
+
+/* Container styling */
+.cyberpwned-navbar .container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand styling */
+.cyberpwned-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Navigation list */
+.cyberpwned-nav {
+  display: flex;
+  align-items: center;
+}
+
+.cyberpwned-nav-item {
+  margin: 0 6px; /* Increased spacing between nav items */
+}
+
+.cyberpwned-nav-link {
+  font-size: 20px; /* Increased font size from 18px to 20px */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 12px; /* Increased padding */
+  transition: color 0.3s ease-in-out;
+}
+
+.cyberpwned-nav-link:hover {
+  color: #ff6b6b;
+}
+
+/* Button container */
+.cyberpwned-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Button styling */
+.cyberpwned-btn {
+  font-weight: 600;
+  padding: 10px 20px; /* Increased padding */
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-left: 12px; /* Increased margin */
+  font-size: 18px; /* Increased font size */
+}
+
+.cyberpwned-btn-login {
+  color: #ff0000;
+  background-color: transparent;
+  border: 2px solid #ff0000;
+}
+
+.cyberpwned-btn-login:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.cyberpwned-btn-signup {
+  color: #ffffff;
+  background-color: #ff0000;
+  border: 2px solid #ff0000;
+}
+
+.cyberpwned-btn-signup:hover {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+/* Adjustments for different screen sizes */
+@media (min-width: 1400px) {
+  .cyberpwned-navbar .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cyberpwned-navbar .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cyberpwned-navbar .container {
+    max-width: 720px;
+    flex-wrap: wrap;
+  }
+  
+  .cyberpwned-navbar .navbar-collapse {
+    width: 100%;
+  }
+  
+  .cyberpwned-buttons {
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .cyberpwned-btn {
+    margin: 5px;
+  }
+  
+  .cyberpwned-logo {
+    height: 45px; /* Smaller but still larger than original on tablet */
+    margin-right: 15px; /* Less spacing on tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .cyberpwned-navbar .container {
+    max-width: 540px;
+    padding: 0 10px;
+  }
+  
+  .cyberpwned-logo {
+    height: 65px; /* Smaller on mobile but still larger than original */
+    margin-right: 10px;
+  }
+  
+  .cyberpwned-nav-link {
+    font-size: 18px; /* Smaller on mobile but still readable */
+  }
+}
+
+@media (max-width: 576px) {
+  .cyberpwned-navbar .container {
+    padding: 0 12px;
+  }
+}
+
+
+
+.cyberpwned-nav-link:hover {
+  color: #e53e3e;
+}
+
+/* Auth buttons styling */
+.cyberpwned-btn {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cyberpwned-btn-login {
+  color: #ffffff;
+  border: 1px solid #e53e3e;
+}
+
+.cyberpwned-btn-login:hover {
+  background-color: rgba(229, 62, 62, 0.1);
+}
+
+.cyberpwned-btn-signup {
+  background-color: #e53e3e;
+  color: #ffffff;
+}
+
+.cyberpwned-btn-signup:hover {
+  background-color: #c53030;
+}
+
+/* Mobile navigation styling */
+@media (max-width: 991.98px) {
+  /* Keep toggler on the right */
+  .navbar-toggler {
+    float: right;
+    position: relative;
+    margin-left: auto;
+  }
+  
+  /* Ensure navbar collapses properly */
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    padding: 20px;
+    z-index: 1000;
+    border-top: 1px solid #333;
+  }
+  
+  /* Force left alignment for nav items */
+  .cyberpwned-nav {
+    text-align: left;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  /* Explicitly align items to the left */
+  .cyberpwned-nav-item {
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left !important;
+    width: 100%;
+  }
+  
+  /* Make links full width for better touch targets and align text left */
+  .cyberpwned-nav-link {
+    display: block;
+    padding: 8px 0;
+    margin: 0;
+    text-align: left !important;
+  }
+  
+  /* Style the auth buttons in mobile view */
+  .cyberpwned-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .cyberpwned-btn {
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Bootstrap overrides */
+  .navbar-nav {
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* Custom toggle button styling */
+.navbar-toggler {
+  border: 1px solid #e53e3e;
+  padding: 5px 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem rgba(229, 62, 62, 0.5);
+}
+
+/* Default styles for larger screens */
+.cyberpwned-navbar {
+  padding: 10px 0;
+}
+
+.cyberpwned-logo {
+  width: 120px; /* Adjust logo size */
+}
+
+.cyberpwned-nav-link {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+/* Responsive styles for screens between 900px and 1200px */
+@media (max-width: 1200px) {
+  .cyberpwned-nav-link {
+    font-size: 16px; /* Reduce text size */
+    padding: 8px 12px; /* Reduce spacing */
+  }
+
+  .cyberpwned-logo {
+    width: 100px; /* Slightly reduce logo size */
+  }
+
+  .cyberpwned-buttons .cyberpwned-btn {
+    font-size: 14px; /* Reduce button size */
+    padding: 6px 12px;
+  }
+}
+
+/* Even smaller screens (below 900px) */
+@media (max-width: 900px) {
+  .cyberpwned-nav-link {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .cyberpwned-logo {
+    width: 80px;
+  }
+
+  .cyberpwned-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .cyberpwned-buttons .cyberpwned-btn {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+.navbar-collapse {
+  flex-grow: 0;
+}

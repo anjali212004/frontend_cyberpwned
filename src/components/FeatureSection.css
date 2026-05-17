@@ -1,0 +1,128 @@
+
+
+
+/* Left Side - Code Box */
+/* .code-section {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.code-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.code-header button {
+    background: #6c63ff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.code-content {
+    background: #0d0d0d;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    overflow: auto;
+    max-height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+} */
+
+
+/* .feature-section-card-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-section-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s;
+}
+
+.feature-section-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.feature-icon-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.feature-text h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.feature-text p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+
+.try-now-section {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.try-now-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.query-description {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-section input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #1a1a1a;
+    color: white;
+    flex: 1;
+}
+
+.input-section button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #6c63ff;
+}
+.feature-section-container{
+    display: flex;
+    gap: 10px;
+} */

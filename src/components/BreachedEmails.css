@@ -1,0 +1,146 @@
+.breached-emails-container {
+    padding: 20px;
+  }
+  
+  .breached-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .breached-header h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .action-filters {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .search-breached input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 0.9rem;
+  }
+  
+  .filter-dropdown select {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 0.9rem;
+    min-width: 150px;
+  }
+  
+  .export-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .export-btn:hover {
+    background-color: #222;
+  }
+  
+  .breached-table-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .breached-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .breached-table th,
+  .breached-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .breached-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .breach-count {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    min-width: 30px;
+  }
+  
+  .breach-count.high {
+    background-color: #fff0f0;
+    color: #c00;
+  }
+  
+  .breach-count.medium {
+    background-color: #fff8f0;
+    color: #f80;
+  }
+  
+  .breach-count.low {
+    background-color: #f0fff0;
+    color: #080;
+  }
+  
+  .breach-sites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .site-badge {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .breach-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .details-btn, .notify-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .details-btn {
+    background-color: #f0f0f0;
+    color: #555;
+  }
+  
+  .details-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .notify-btn {
+    background-color: #c00;
+    color: white;
+  }
+  
+  .notify-btn:hover {
+    background-color: #900;
+  }

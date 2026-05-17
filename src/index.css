@@ -1,0 +1,14 @@
+body {
+  background: black; /* Light Violet to Black */
+  min-height: 100vh; /* Ensures full height */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Ensures text is readable */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
