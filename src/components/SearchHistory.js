@@ -3,13 +3,13 @@ import './SearchHistory.css';
 
 const SearchHistory = () => {
   // Demo data
-  const [searchHistory, setSearchHistory] = useState([
+  const searchHistory = [
     { id: 1, email: 'search1@example.com', user: 'John Doe', timestamp: '2025-02-28 09:23:45', result: 'Breached', breachCount: 3 },
     { id: 2, email: 'search2@example.com', user: 'Jane Smith', timestamp: '2025-02-28 08:14:22', result: 'Not Breached', breachCount: 0 },
     { id: 3, email: 'search3@example.com', user: 'Robert Johnson', timestamp: '2025-02-27 16:42:05', result: 'Breached', breachCount: 1 },
     { id: 4, email: 'search4@example.com', user: 'Samantha Lee', timestamp: '2025-02-27 15:31:47', result: 'Breached', breachCount: 5 },
     { id: 5, email: 'search5@example.com', user: 'Michael Wilson', timestamp: '2025-02-27 14:22:31', result: 'Not Breached', breachCount: 0 }
-  ]);
+  ];
 
   const [searchTerm, setSearchTerm] = useState('');
   const [dateFilter, setDateFilter] = useState('all');

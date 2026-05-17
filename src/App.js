@@ -47,8 +47,7 @@
 
 // export default App;
 
-import { BrowserRouter as Router, Routes, Route, Navigate, HashRouter } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
 
 // Public components
 import Navbar from "./components/Navbar";

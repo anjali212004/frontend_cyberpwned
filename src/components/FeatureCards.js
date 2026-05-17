@@ -59,7 +59,7 @@ const FeatureCards = () => {
               }}>
                 <h1 className="text-white mb-0">Advanced Capabilities</h1>
         </div>
-        <h2 className="main-heading"></h2>
+        <h2 className="main-heading">Trusted breach intelligence delivered at scale</h2>
         <p className="sub-heading">
           Comprehensive tools and features to power your threat intelligence operations
         </p>

@@ -3,13 +3,13 @@ import './BreachedEmails.css';
 
 const BreachedEmails = () => {
   // Demo data
-  const [breachedEmails, setBreachedEmails] = useState([
+  const breachedEmails = [
     { id: 1, email: 'user1@example.com', breaches: 3, lastBreach: '2025-02-20', sites: ['DemoSite', 'TestApp', 'ExamplePortal'] },
     { id: 2, email: 'user2@example.com', breaches: 1, lastBreach: '2025-02-15', sites: ['SampleService'] },
     { id: 3, email: 'user3@example.com', breaches: 5, lastBreach: '2025-02-10', sites: ['TestApp', 'DemoSite', 'ExamplePortal', 'DataLeak', 'PrivacyViolation'] },
     { id: 4, email: 'user4@example.com', breaches: 2, lastBreach: '2025-01-25', sites: ['ExamplePortal', 'DemoSite'] },
     { id: 5, email: 'user5@example.com', breaches: 4, lastBreach: '2025-01-20', sites: ['PrivacyViolation', 'DataLeak', 'TestApp', 'ExamplePortal'] }
-  ]);
+  ];
 
   const [searchTerm, setSearchTerm] = useState('');
   const [filter, setFilter] = useState('all');

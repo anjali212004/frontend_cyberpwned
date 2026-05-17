@@ -3,13 +3,13 @@ import './Users.css';
 
 const Users = () => {
   // Demo data
-  const [users, setUsers] = useState([
+  const users = [
     { id: 1, name: 'John Doe', email: 'john@example.com', role: 'User', status: 'Active', lastLogin: '2025-02-27' },
     { id: 2, name: 'Jane Smith', email: 'jane@example.com', role: 'Admin', status: 'Active', lastLogin: '2025-02-28' },
     { id: 3, name: 'Robert Johnson', email: 'robert@example.com', role: 'User', status: 'Inactive', lastLogin: '2025-01-15' },
     { id: 4, name: 'Lisa Brown', email: 'lisa@example.com', role: 'User', status: 'Active', lastLogin: '2025-02-25' },
     { id: 5, name: 'Michael Wilson', email: 'michael@example.com', role: 'User', status: 'Active', lastLogin: '2025-02-26' }
-  ]);
+  ];
 
   const [searchTerm, setSearchTerm] = useState('');
 
